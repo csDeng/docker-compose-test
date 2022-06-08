@@ -1,0 +1,17 @@
+{
+	"order": 3,
+	"version": 1,
+	"index_patterns":[
+		"test_number_pattern"
+	],
+	"mappings": {
+		"properties": {
+			"num": {
+				"type": "keyword"
+			}
+		}
+	},
+	"aliases": {
+
+	}
+}
