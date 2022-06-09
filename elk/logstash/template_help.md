@@ -10,7 +10,6 @@
 ## 相关字段的意义
 
 * order
-  
 	> template 是可以设置 order 参数的！而不写这个参数，默认的 order 值就是 0。order 值越大，在 merge 规则的时候优先级越高。
 
 * version
