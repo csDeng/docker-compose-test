@@ -2,6 +2,8 @@
 
 [官方文档](https://www.elastic.co/guide/en/elasticsearch/reference/5.4/indices-templates.html)
 
+* 注意 `index template`只在新建索引的时候起效。
+
 
 ---
 
@@ -23,6 +25,13 @@
 * mapping
 
 	>映射
+
+* index_pattern
+  
+  > 索引模板起作用的匹配模板
+  > ` * ` 可以匹配任意长的任意字符
+	
+
 
 ---
 

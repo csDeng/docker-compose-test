@@ -2,7 +2,7 @@
 	"order": 3,
 	"version": 1,
 	"index_patterns":[
-		"test_number_pattern"
+		"test*"
 	],
 	"mappings": {
 		"properties": {
