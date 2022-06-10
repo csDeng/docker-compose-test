@@ -18,9 +18,10 @@ docker-compose up
 ```shell
 source ./env/test.sh
 docker-compose up --force-recreat
-
 ```
 
+* 注意，因为使用脚本修改配置直接改的是文本，在新配置了信息之后，需要将文件中的修改撤回到变量状态。或者简单的重新拉取吧，又或者
+在修改前先做好备份。
 
 # 补充说明
 * `demo_req`目录存放的是`es`的测试请求
