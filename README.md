@@ -40,4 +40,4 @@
   > - [x] logstash 实时采集 MySQL 数据
   > - [x] logstash 实时推送数据到 elasticsearch
   > - [x] logstash 预设索引模板
-  > - [ ] logstash 增量采集（因为涉及到公司内部的架构，就不更了）
+  > - [x] logstash 增量采集

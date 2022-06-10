@@ -9,6 +9,12 @@ export MySQL_PORT=3306
 export IP=192.168.255.10
 
 
+echo "环境备份----"
+cp ./kibana/kibana.yml ./kibana/kibana.yml.bak
+cp ./logstash/logstash.conf ./logstash/logstash.conf.bak
+cp ./logstash/logstash.yml ./logstash/logstash.yml.bak
+echo "环境备份完毕"
+
 echo "自动替换环境变量中---"
 
 echo "edit kibana.yml ---"
