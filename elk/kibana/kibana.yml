@@ -5,7 +5,7 @@
 # Default Kibana configuration for docker target
 server.name: kibana
 server.host: "0"
-elasticsearch.hosts: [ "http://192.168.255.10:9200" ]
+elasticsearch.hosts: [ "http://${IP}:${ES_HTTP_PORT}" ]
 
 # 中文
 i18n.locale: "zh-CN"
