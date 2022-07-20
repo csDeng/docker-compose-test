@@ -41,3 +41,8 @@
   > - [x] logstash 实时推送数据到 elasticsearch
   > - [x] logstash 预设索引模板
   > - [x] logstash 增量采集
+
+* mysql_redis
+
+	> 部署 mysql redis phpmyadmin 三个容器
+	
