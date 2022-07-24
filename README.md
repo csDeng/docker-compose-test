@@ -44,5 +44,6 @@
 
 * mysql_redis
 
-	> 部署 mysql redis phpmyadmin 三个容器
+	> 部署 mysql redis phpmyadmin nginx 四个容器
+	> 其中 nginx 主要做反向代理，已解决将容器部署到服务器的时候出现的跨域问题。
 	
